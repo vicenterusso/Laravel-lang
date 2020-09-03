@@ -1,7 +1,6 @@
 <?php
 
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Validation Language Lines
@@ -40,7 +39,7 @@ return [
     'dimensions'     => 'May mga hindi valid na dimensyon ng larawan ang :attribute.',
     'distinct'       => 'May duplicate na value ang field na :attribute.',
     'email'          => 'Dapat na valid na email address ang :attribute.',
-    'ends_with'      => 'The :attribute must end with one of the following: :values',
+    'ends_with'      => 'The :attribute must end with one of the following: :values.',
     'exists'         => 'Hindi valid ang piniling :attribute.',
     'file'           => 'Dapat na isang file ang :attribute.',
     'filled'         => 'Dapat na may value ang field na :attribute.',
@@ -93,6 +92,7 @@ return [
     'not_in'               => 'Hindi valid ang piniling :attribute.',
     'not_regex'            => 'Hindi valid ang format na :attribute.',
     'numeric'              => 'Dapat na numero ang :attribute.',
+    'password'             => 'The password is incorrect.',
     'present'              => 'Dapat na mayroon ng field na :attribute.',
     'regex'                => 'Hindi valid ang format na :attribute.',
     'required'             => 'Kinakailangan ang field na :attribute.',
@@ -146,5 +146,4 @@ return [
     */
 
     'attributes' => [],
-
 ];
